@@ -18,13 +18,15 @@ Updating and creating should have input validation to ensure data is correct. He
 - This service must be hosted in AWS, the way in which it is hosted up to you, but it must allow you to run the service with the above features and be reasonably performant and cost effective.
 
 
-Kyle Robertson > Dog Service Decisions > dog service.png
+
+
 Stack
 API Gateway - routes to appropriate lambda for processing depending on path and method
 
 Lambda - Processed each event
 
 DynamoDB - Stores records on dogs
+![DogAPI](https://user-images.githubusercontent.com/19194352/123122836-5840ac80-d414-11eb-9217-c3075cd9c493.PNG)
 
 
 
@@ -33,7 +35,7 @@ Primary Key - Breed
 
 Data 
 
-lifespan
+Kyle Robertson > Dog Service Decisions > dog service.pnglifespan
 size
 
 Lambdas
