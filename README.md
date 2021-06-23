@@ -16,3 +16,26 @@ Updating and creating should have input validation to ensure data is correct. He
 - All other fields (size, hair, friendliness) must be one of their respective accepted values.
 - If any of these rules fails, return a client error with an indication of the issue in the response body.
 - This service must be hosted in AWS, the way in which it is hosted up to you, but it must allow you to run the service with the above features and be reasonably performant and cost effective.
+
+
+Kyle Robertson > Dog Service Decisions > dog service.png
+Stack
+API Gateway - routes to appropriate lambda for processing depending on path and method
+
+Lambda - Processed each event
+
+DynamoDB - Stores records on dogs
+
+
+
+Table Structure
+Primary Key - Breed
+
+Data 
+
+lifespan
+size
+
+Lambdas
+Written in Go, just for experience
+Core libraries in a layer, lambdas just have code to invoke shared libraries
