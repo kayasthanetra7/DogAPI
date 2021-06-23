@@ -29,10 +29,13 @@ DynamoDB - Stores records on dogs
 Table Structure
 Primary Key - Breed
 
-Data 
-![DogAPI](https://user-images.githubusercontent.com/19194352/123122836-5840ac80-d414-11eb-9217-c3075cd9c493.PNG)
+Data
 
 size
+
+![DogAPI](https://user-images.githubusercontent.com/19194352/123122836-5840ac80-d414-11eb-9217-c3075cd9c493.PNG)
+
+
 
 Lambdas
 Written in Go, just for experience
